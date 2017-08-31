@@ -161,12 +161,11 @@ public class Geometry
     }     
     
     /**
-     * Calculates slope formula in decimal
+     * Calculates triangle area given 3 sides
      * 
-     * @param x1 The x value of first coordinate
-     * @param x2 The x value of second coordinate
-     * @param y1 The y value of first coordinate
-     * @param y2 The x value of second coordinate
+     * @param a The side length of first side
+     * @param b The side length of second side
+     * @param c The side length of third side
      */
     
          public static double heronsFormula(double a, double b, double c) 
@@ -224,6 +223,7 @@ public class Geometry
         double sf1 = slopeFormula(3.2, 4.5, 6.0, 7.2);
         System.out.println("Slope Formula: " + sf1);
 
+        //Heron's Formula
         double hf1 = heronsFormula(3 , 4 , 5);
         System.out.println("Area of a triangle given 3 sides: " + hf1);
         

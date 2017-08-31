@@ -162,39 +162,50 @@ public class Geometry
     
     public static void main(String[] args) 
     {
+        //Triangle Areas
         double ta1 = triangleArea(4.2, 8.1);
         double ta2 = triangleArea(3.0, 123.157);
         
-        System.out.println("Triangle Area Area 1: " + ta1);
-        System.out.println("Parallelogram Area 2: " + ta2);
+        System.out.println("Triangle Area 1: " + ta1);
+        System.out.println("Triangle Area 2: " + ta2);
         
+        //Rectangle Area
         double ra1 = rectangleArea(5.2, 9.3);
         System.out.println("Rectangle Area: " + ra1);
         
+        //Parallelogram Area
         double pa1 = parallelogramArea(3.2, 4.5);
         System.out.println("Parallelogram Area: " + pa1);
         
+        //Trapezoid Area
         double tra1 = trapezoidArea(3.2, 4.5, 6.0);
         System.out.println("Trapezoid Area: " + tra1);
         
+        //Rectangular Prism Volume
         double rpv1 = rectangularPrismVolume(3.2, 4.5, 6.0);
         System.out.println("Rectangular Prism Volume: " + rpv1);
         
+        //Cone Volume
         double cv1 = coneVolume(2.2, 4.4);
         System.out.println("Cone Volume: " + cv1);
             
+        //Rectangular Prism Surface Area
         double rpsa1 = rectangularPrismSurfaceArea(3.2, 4.5, 6.0);
         System.out.println("Rectangular Prism Surface Area: " + rpsa1); 
         
+        //Sphere Surface Area
         double ssa1 = sphereSurfaceArea(3.2);
         System.out.println("Sphere Surface Area: " + ssa1);
         
+        //Hypotenuse of Right Triangle
         double hrt1 = hypotenuseRightTriangle(3.2, 4.5);
         System.out.println("Hypotenuse of Right Triangle: " + hrt1);
         
+        //Distance Formula
         double df1 = distanceFormula(3.2, 4.5, 6.0, 7.2);
         System.out.println("Distance Formula: " + df1);
         
+        //Slope Formula
         double sf1 = slopeFormula(3.2, 4.5, 6.0, 7.2);
         System.out.println("Slope Formula: " + sf1);
 

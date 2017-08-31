@@ -160,6 +160,21 @@ public class Geometry
         return (y2 - y1) / (x2 - x1);
     }     
     
+    /**
+     * Calculates slope formula in decimal
+     * 
+     * @param x1 The x value of first coordinate
+     * @param x2 The x value of second coordinate
+     * @param y1 The y value of first coordinate
+     * @param y2 The x value of second coordinate
+     */
+    
+         public static double heronsFormula(double a, double b, double c) 
+    {
+        double p = (a + b + c) / 2.0;
+        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+    }     
+    
     public static void main(String[] args) 
     {
         //Triangle Areas
@@ -209,7 +224,8 @@ public class Geometry
         double sf1 = slopeFormula(3.2, 4.5, 6.0, 7.2);
         System.out.println("Slope Formula: " + sf1);
 
-        
+        double hf1 = heronsFormula(3 , 4 , 5);
+        System.out.println("Area of a triangle given 3 sides: " + hf1);
         
         
     }

@@ -14,6 +14,7 @@ public class Geometry
      *
      * @param base The base of the triangle
      * @param height The height of the triangle
+     * @return Area of a triangle.
      */
     
     public static double triangleArea(double base, double height) 
@@ -28,6 +29,7 @@ public class Geometry
      *
      * @param length The length of the rectangle
      * @param width The width of the rectangle
+     * @return Area of the rectangle.
      */
     
     public static double rectangleArea(double length, double width) 
@@ -39,6 +41,7 @@ public class Geometry
      * Calculates sphere volume
      *
      * @param radius The radius of the sphere
+     * @return Volume of a sphere.
      */
     
     public static double sphereVolume(double radius) 
@@ -51,6 +54,7 @@ public class Geometry
      *
      * @param base The base of the parallelogram
      * @param height The height of the parallelogram
+     * @return Area of a parallelogram.
      */
     
         public static double parallelogramArea(double base, double height) 
@@ -64,6 +68,7 @@ public class Geometry
      * @param base1 The base of the trapezoid
      * @param base2 The base of the trapezoid
      * @param height The height of the trapezoid
+     * @return Area of a trapezoid.
      */
     
         public static double trapezoidArea(double base1, double base2, double height) 
@@ -77,6 +82,7 @@ public class Geometry
      * @param length The length of the rectangular prism
      * @param width The width of the rectangular prism
      * @param height The height of the rectangular prism
+     * @return Volume of a rectangular prism.
      */
     
          public static double rectangularPrismVolume(double length, double width, double height) 
@@ -89,6 +95,7 @@ public class Geometry
      *
      * @param radius The radius of the cone
      * @param height The height of the cone
+     * @return Cone volume.
      */
     
          public static double coneVolume(double radius, double height) 
@@ -102,6 +109,7 @@ public class Geometry
      * @param length The length of the rectangular prism
      * @param width The width of the rectangular prism
      * @param height The height of the rectangular prism
+     * @return Surface area of a rectangular prism.
      */
     
          public static double rectangularPrismSurfaceArea(double length, double width, double height) 
@@ -113,6 +121,7 @@ public class Geometry
      * Calculates surface area of a sphere
      *
      * @param radius The radius of the sphere
+     * @return Surface area of a sphere.
      */
     
          public static double sphereSurfaceArea(double radius) 
@@ -125,6 +134,7 @@ public class Geometry
      *
      * @param a The leg of the triangle
      * @param b The other leg of the triangle
+     * @return Hypotenuse of a right triangle.
      */
     
          public static double hypotenuseRightTriangle(double a, double b) 
@@ -139,6 +149,7 @@ public class Geometry
      * @param x2 The x value of second coordinate
      * @param y1 The y value of first coordinate
      * @param y2 The x value of second coordinate
+     * @return Distance between two points.
      */
     
          public static double distanceFormula(double x1, double x2, double y1, double y2) 
@@ -153,6 +164,7 @@ public class Geometry
      * @param x2 The x value of second coordinate
      * @param y1 The y value of first coordinate
      * @param y2 The x value of second coordinate
+     * @return Slope between two points.
      */
     
          public static double slopeFormula(double x1, double x2, double y1, double y2) 
@@ -166,6 +178,7 @@ public class Geometry
      * @param a The side length of first side
      * @param b The side length of second side
      * @param c The side length of third side
+     * @return Area of a triangle with 3 sides.
      */
     
          public static double heronsFormula(double a, double b, double c) 
@@ -186,7 +199,7 @@ public class Geometry
         //Rectangle Area
         double ra1 = rectangleArea(5.2, 9.3);
         System.out.println("Rectangle Area: " + ra1);
-        
+
         //Parallelogram Area
         double pa1 = parallelogramArea(3.2, 4.5);
         System.out.println("Parallelogram Area: " + pa1);
